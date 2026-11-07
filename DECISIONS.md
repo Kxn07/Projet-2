@@ -14,3 +14,5 @@
 | Entrées | Tout obligatoire ou non | Seul le modèle de voiture obligatoire | |
 
 | mpg élevé (201,8) | Garder ou retirer | Gardé : 5 Kuga Hybrid, valeur plausible | |
+
+| Interface | Tkinter, Streamlit | Streamlit : curseurs min/max tout faits, graphique en 1 ligne | date |
