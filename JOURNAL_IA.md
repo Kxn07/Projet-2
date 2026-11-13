@@ -18,7 +18,7 @@ Principe suivi : l'IA explique et propose ; j'écris ou je relis le code, je le 
 | 06/11/2026 | Claude | Expliquer des lignes de code (`get_dummies`, `train_test_split`, `np.full`, `reindex`) | Commentaires ligne par ligne | Compris, commentaires ajoutés dans le code | Gardé |
 | 06/11/2026 | Claude | Choisir l'interface | Tkinter vs Streamlit | Comparaison du code nécessaire | Streamlit (champs et graphique simples) |
 | 06/11/2026 | Claude | Interface : saisies optionnelles et intervalles min/max | Valeurs typiques par modèle + combinaisons (`itertools.product`) donnant une fourchette | Essais dans l'application avec saisies vides, invalides, min > max | Gardé, messages d'erreur ajustés |
-| 13/11/2026 | Claude | Compléter le README et ce journal | Rédaction à partir du code et des résultats | Relecture, commandes du README testées | Gardé après relecture |
+| 13/11/2026 | Claude | Compléter le README et ce journal | Rédaction à partir du code et des résultats | Chiffres recalculés (52 lignes supprimées, RMSE après réentraînement), licence vérifiée sur Kaggle, tests et application relancés | Gardé après relecture |
 
 ## Ce que j'ai appris / limites de l'IA
 - L'IA donne du code qui fonctionne souvent, mais il faut le relancer et le tester : les chiffres
