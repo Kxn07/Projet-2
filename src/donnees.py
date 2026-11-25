@@ -25,8 +25,8 @@ class Variable(ABC):                       # ABC = classe abstraite (on ne l'uti
 class VariableNumerique(Variable):         # hérite de Variable
     def __init__(self, nom: str, minimum: float, maximum: float) -> None:
         super().__init__(nom)              # appelle le __init__ du parent (stocke le nom)
-        self._minimum=minimum                         # à toi : stocker minimum dans self._minimum
-        self._maximum=maximum                                # à toi : stocker maximum dans self._maximum
+        self._minimum=minimum                         
+        self._maximum=maximum                               
 
     def __str__(self) -> str:
         return f"{self._nom} (numérique, {self._minimum} à {self._maximum})"
