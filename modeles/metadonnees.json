@@ -1,0 +1,118 @@
+{
+  "cible": "price",
+  "colonnes": {
+    "model": {
+      "type": "categorielle",
+      "valeurs": [
+        " B-MAX",
+        " C-MAX",
+        " EcoSport",
+        " Edge",
+        " Escort",
+        " Fiesta",
+        " Focus",
+        " Fusion",
+        " Galaxy",
+        " Grand C-MAX",
+        " Grand Tourneo Connect",
+        " KA",
+        " Ka+",
+        " Kuga",
+        " Mondeo",
+        " Mustang",
+        " Puma",
+        " Ranger",
+        " S-MAX",
+        " Streetka",
+        " Tourneo Connect",
+        " Tourneo Custom",
+        " Transit Tourneo"
+      ]
+    },
+    "year": {
+      "type": "numerique",
+      "min": 1996.0,
+      "max": 2020.0
+    },
+    "transmission": {
+      "type": "categorielle",
+      "valeurs": [
+        "Automatic",
+        "Manual",
+        "Semi-Auto"
+      ]
+    },
+    "mileage": {
+      "type": "numerique",
+      "min": 1.0,
+      "max": 177644.0
+    },
+    "fuelType": {
+      "type": "categorielle",
+      "valeurs": [
+        "Diesel",
+        "Electric",
+        "Hybrid",
+        "Other",
+        "Petrol"
+      ]
+    },
+    "tax": {
+      "type": "numerique",
+      "min": 0.0,
+      "max": 580.0
+    },
+    "mpg": {
+      "type": "numerique",
+      "min": 20.8,
+      "max": 201.8
+    },
+    "engineSize": {
+      "type": "numerique",
+      "min": 1.0,
+      "max": 5.0
+    }
+  },
+  "rmse": {
+    "rmse_modele": 1269.71793000651,
+    "rmse_reference": 4754.264250447936
+  },
+  "colonnes_encodees": [
+    "year",
+    "mileage",
+    "tax",
+    "mpg",
+    "engineSize",
+    "model_ B-MAX",
+    "model_ C-MAX",
+    "model_ EcoSport",
+    "model_ Edge",
+    "model_ Escort",
+    "model_ Fiesta",
+    "model_ Focus",
+    "model_ Fusion",
+    "model_ Galaxy",
+    "model_ Grand C-MAX",
+    "model_ Grand Tourneo Connect",
+    "model_ KA",
+    "model_ Ka+",
+    "model_ Kuga",
+    "model_ Mondeo",
+    "model_ Mustang",
+    "model_ Puma",
+    "model_ Ranger",
+    "model_ S-MAX",
+    "model_ Streetka",
+    "model_ Tourneo Connect",
+    "model_ Tourneo Custom",
+    "model_ Transit Tourneo",
+    "transmission_Automatic",
+    "transmission_Manual",
+    "transmission_Semi-Auto",
+    "fuelType_Diesel",
+    "fuelType_Electric",
+    "fuelType_Hybrid",
+    "fuelType_Other",
+    "fuelType_Petrol"
+  ]
+}
